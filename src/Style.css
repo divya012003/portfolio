@@ -1,0 +1,194 @@
+
+.home-container {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+              url("https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==") no-repeat center center;
+  height: 100vh;
+  width: 100%;;
+  background-size: cover; /* Ensures the image covers the full area */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+}
+
+h1 {
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+}
+/* Hero Section */
+.home-container {
+  padding: 2rem;
+}
+
+.social-icons a {
+  font-size: 30px;
+  margin: 0 1rem;
+  padding-left: 30px;
+  color: #343a40;
+  transition: color 0.3s ease;
+}
+.social-icons a:hover {
+  color: #007bff;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+.btn-danger {
+  border: 2px solid #007bff;
+  color: #007bff;
+  transition: transform 0.3s ease-in-out;
+}
+.btn-danger:hover {
+  background-color: #007bff;
+  transform: scale(1.1);
+}
+
+.profile-img {
+  width: 200px; /* Adjust size as needed */
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes the image circular */
+  border: 3px solid hsl(216, 29%, 93%); /* Optional: Add a border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow */
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  padding-left: 100px;
+}
+p.lead {
+  font-size: 1.25rem; /* Adjust size if needed */
+  color: #242121; /* Adjust color */
+  text-shadow: 5px 5px 7px rgba(146, 146, 146, 0.997); /* Subtle shadow for the paragraph */
+}
+.about-section {
+  height: 100vh;;
+  background: linear-gradient(135deg, #7ca0c7, #6610f2);
+  color: white;
+  text-align: left;
+  padding: 80px 0;
+}
+
+.profile-img1 {
+  margin-top: 150px;
+  width: 300px;
+  height: 300px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.btn-primary {
+  background-color: #ff7e5f;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #e35d4f;
+  transform: scale(1.1);
+}
+
+
+.contact-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #007bff, #dfdbe6);
+  color: white;
+  padding: 80px 0;
+}
+
+.section-title {
+  margin-top: 150px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-description {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.contact-details p {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.contact-details i {
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: #feb47b;
+}
+
+.contact-form {
+  margin-top: 100px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form .form-control {
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #ff7e5f;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #e35d4f;
+  transform: scale(1.05);
+}
+
